@@ -1,0 +1,117 @@
+@font-face {
+    font-family: Tangerine;
+    src: url(/assets/fonts/BelweMediumBT.ttf) format("truetype");
+}
+
+* {
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+    font-family: Tangerine;
+}
+
+html {
+    scroll-behavior: smooth;
+}
+
+h1,
+h2,
+h3 {
+    text-align: center;
+    text-shadow: 2px 2px 2px #f61c3b;
+}
+
+ul {
+    list-style: none;
+}
+
+a {
+    text-decoration: none;
+}
+
+button,
+input {
+    border: none;
+    outline: none;
+}
+
+button {
+    cursor: pointer;
+}
+
+img {
+    max-width: 100%;
+    height: auto;
+}
+
+section {
+    background: rgba(0, 0, 0, 0.15);
+    border-radius: 1rem;
+}
+
+body {
+    color: white;
+    padding: 2rem 0;
+    background: rgb(222, 32, 59);
+    background: linear-gradient(302deg, rgba(222, 32, 59, 1) 0%, rgba(0, 0, 0, 1) 30%, rgba(0, 0, 0, 1) 74%, rgba(222, 32, 59, 1) 100%);
+    height: 100vh;
+}
+
+h1 {
+    font-size: 5rem;
+}
+
+h2 {
+    font-size: 3.5rem;
+}
+
+/*Desde aqui empece a trabajar para el desktop*/
+
+.container-fluid {
+    height: 100%;
+    max-height: 100vh;
+    box-shadow: 0px 0px 20px 2px black;
+    padding: 2rem;
+}
+
+.countdown-container {
+    margin-bottom: 3rem;
+    background: rgba(0, 0, 0, 0.08);
+    box-shadow: 2px 2px 2px #f61c3b;
+    border-radius: 1rem;
+}
+
+.countdown-item {
+    text-align: center;
+}
+
+.countdown-item p {
+    font-size: 4rem;
+    margin-bottom: 0;
+}
+
+.countdown-item span {
+    font-size: 2.5rem;
+}
+
+.info-container {
+    background: rgba(0, 0, 0, 0.08);
+    box-shadow: 2px 2px 2px #f61c3b;
+}
+
+.info-container {
+    max-height: 25rem;
+}
+
+.info-box img {
+    height: 90%;
+    border-radius: 1rem;
+}
+
+.info-box img:hover{
+    box-shadow: 0px 0px 20px 2px  #f61c3b;
+}
+
+.info-box p {
+    font-size: 2rem;
+}
